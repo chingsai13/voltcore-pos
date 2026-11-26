@@ -35,9 +35,4 @@ RUN chown -R www-data:www-data /var/www/html/storage \
 RUN chmod -R 775 /var/www/html/storage \
     /var/www/html/bootstrap/cache
 
-# Cache Laravel configuration
-RUN php artisan config:cache
-RUN php artisan route:cache
-RUN php artisan view:cache
-
 EXPOSE 80
