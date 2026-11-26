@@ -3,7 +3,9 @@ FROM php:8.3-apache
 # Install PHP extensions required by Laravel + PostgreSQL
 RUN apt-get update && apt-get install -y \
     libpq-dev \
-    && docker-php-ext-install pdo pdo_pgsql \
+    libzip-dev \
+    unzip \
+    && docker-php-ext-install pdo pdo_pgsql zip \
     && a2enmod rewrite \
     && rm -rf /var/lib/apt/lists/*
 
