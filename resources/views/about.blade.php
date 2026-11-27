@@ -14,7 +14,7 @@
 
     <h2>Development Team</h2>
     <div class="row"><span class="lbl">Course</span><span>IT0049 — Web System Technologies</span></div>
-    <div class="row"><span class="lbl">Developer Group</span><span>Benj Lorenz U. Regoso & Team</span></div>
+    <div class="row"><span class="lbl">Developer Group</span><span>CtrlShiftFive</span></div>
     <div class="row"><span class="lbl">Architecture</span><span>Laravel 12 MVC + MySQL XAMPP</span></div>
     <div class="row"><span class="lbl">Authentication</span><span>Breeze + Session Auth + Middleware</span></div>
     <div class="row"><span class="lbl">Design System</span><span>Voltcore Chamfered Neon Liquid Glass</span></div>
